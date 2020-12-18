@@ -1,0 +1,12 @@
+body {
+  background-color: pink;
+}
+
+p {
+  border-width: 1px;
+  border-style: solid;
+}
+
+.change-background-color {
+  background-color: rgba(184, 229, 255, 0.986);
+}

@@ -1,0 +1,12 @@
+<!-- header -->
+<%- include('header', {cssFilePath: '/styles.css'}); %>
+
+<% items.forEach( item => { %>
+  <p>
+    <%= item.name %> : <%= item.price %> : <%= item.category %>
+  </p>
+<% }) %>
+
+<!-- footer -->
+<%- include('footer'); %>
+    
